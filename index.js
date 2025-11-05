@@ -9,11 +9,11 @@ import { sendToApi } from "./lead.js";
 const affiliate_id = "3";
 const SID = "3ee58196-ca52-4806-b726-9df5e0da3c88";
 
-const vide_ID_white = "vidalytics_embed_Dgaa9y0nmeNVoQAy";
-const vide_LINK_white = "https://fast.vidalytics.com/embeds/vBFA2Mrf/Dgaa9y0nmeNVoQAy/";
+const vide_ID_white = "vidalytics_embed_H6TBQJnhadgqJY4j";
+const vide_LINK_white = "https://fast.vidalytics.com/embeds/vBFA2Mrf/H6TBQJnhadgqJY4j/";
 
-const vide_ID_black = "vidalytics_embed_H6TBQJnhadgqJY4j";
-const vide_LINK_black = "https://fast.vidalytics.com/embeds/vBFA2Mrf/H6TBQJnhadgqJY4j/";
+const vide_ID_black = "vidalytics_embed_VIhNGdyEtLYaNHWY";
+const vide_LINK_black = "https://fast.vidalytics.com/embeds/vBFA2Mrf/VIhNGdyEtLYaNHWY/";
 
 export default {
   async fetch(request) {
