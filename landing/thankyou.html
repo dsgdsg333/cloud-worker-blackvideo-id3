@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Project citizens</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .thank-you-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+        }
+        .thank-you-box {
+            background: white;
+            padding: 60px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 600px;
+        }
+        .thank-you-box h1 {
+            color: #667eea;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .thank-you-box p {
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .checkmark {
+            width: 80px;
+            height: 80px;
+            background: #4CAF50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            animation: scaleIn 0.5s ease-out;
+        }
+        .checkmark::after {
+            content: "✓";
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        @keyframes scaleIn {
+            0% { transform: scale(0); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+<section class="thank-you-section">
+    <div class="thank-you-box">
+        <div class="checkmark"></div>
+        <h1>Thank You!</h1>
+        <p><strong>Your registration has been successfully submitted.</strong></p>
+        <p>Our manager will contact you shortly to assist with setting up your account.</p>
+        <p>Please keep your phone nearby.</p>
+    </div>
+</section>
+</body>
+</html>

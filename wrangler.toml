@@ -1,0 +1,8 @@
+name = "v33"
+main = "index.js"
+compatibility_date = "2025-10-22"
+
+[[rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.css"]
+fallthrough = true
